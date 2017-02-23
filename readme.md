@@ -19,3 +19,5 @@ The installation script will do pretty much everything for you to have Ticketit 
 ## Notes
 
 Please send Ticketit-related bugreports to the [Ticketit repo](https://github.com/thekordy/ticketit/issues). Only installer-related problems should be reported here.
+
+If you move your installation folder to another path, you need to update the row with `slug='routes'` in table `ticketit_settings`.
