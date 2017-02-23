@@ -300,14 +300,15 @@ class InstallTicketit extends Command
         ]);
 
         $admin = \App\User::orderBy('id', 'desc')->first();
-        $admin->forceUpdate(['ticketit_agent' => 1]);
+        $admin->ticketit_agent = 1;
+        $admin->save();
         $supportCategory->agents()->attach($admin->id);
 
 
     }
 
     private function setUpMail(){
-        $this->info("Ticketit installation completed!");
+        $this->info("\nTicketit installation completed!");
         $this->comment("Don't forget to configure mail in your .env file");
         $this->line("https://laravel.com/docs/master/mail");
     }
