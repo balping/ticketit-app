@@ -12,7 +12,14 @@ Open a terminal at the desired installation destination and run:
 composer create-project --prefer-dist balping/ticketit-app ticketit
 ```
 
-This pulls in all necessary libraries. After that an installation script runs, asking some questions (database parameters, admin account login details).
+This pulls in all necessary libraries. Then cd into the installation directory and run the install script:
+
+```
+cd ticketit
+php artisan ticketit:install
+```
+
+This asks some questions (database parameters, admin account login details).
 
 The installation script will do pretty much everything for you to have Ticketit up and running. After installation is done, you might want to set up mail by editing the `.env` file and go through the settings in the admin panel.
 
