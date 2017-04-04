@@ -25,7 +25,7 @@ The installation script will do pretty much everything for you to have Ticketit 
 
 ## Windows devs needed
 
-It has been reported that this installer doesn't work under Windows. If you are courageous / masochist enough to run a web server under Windows, please take some time to try to fix the script. Contributions would be very much appriciated. 
+It has been reported that this installer doesn't work under Windows. If you are  ~~masochist~~ ~~reckless~~ courageous  enough to run a web server under Windows, please take some time to try to fix the script. Contributions would be very much appriciated. 
 
 ## Notes
 
