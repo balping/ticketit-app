@@ -23,6 +23,10 @@ This asks some questions (database parameters, admin account login details).
 
 The installation script will do pretty much everything for you to have Ticketit up and running. After installation is done, you might want to set up mail by editing the `.env` file and go through the settings in the admin panel.
 
+## Windows devs needed
+
+It has been reported that this installer doesn't work under Windows. If you are courageous / masochist enough to run a web server under Windows, please take some time to ry to fix the script. Contributions would be very much appriciated. 
+
 ## Notes
 
 Please send Ticketit-related bugreports to the [Ticketit repo](https://github.com/thekordy/ticketit/issues). Only installer-related problems should be reported here.
