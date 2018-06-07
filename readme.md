@@ -1,3 +1,9 @@
+## Moved to GitLab
+
+**Warning**: This project has been moved to GitLab: https://gitlab.com/balping/ticketit-app
+
+----
+
 # Ticketit app
 
 This is a Laravel 5.5 application with [Ticketit](https://github.com/thekordy/ticketit) pre-installed in it. This is meant to make installation of Ticketit as quick as possible and easier for those who are not familiar with Laravel.
